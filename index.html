@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHEMA ELISA MUSIC PRODUCTION</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* Reset & Base Styles */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+body { background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); color: #fff; }
+a { text-decoration: none; color: inherit; }
+
+/* Header */
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px 50px; background: rgba(0,0,0,0.6); backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 100; }
+header .logo { font-size: 1.5rem; font-weight: 700; color: #00ffd5; }
+.navbar a { margin-left: 25px; font-weight: 500; transition: color 0.3s; }
+.navbar a:hover { color: #00aaff; }
+
+/* Hero Section */
+.hero { text-align: center; padding: 120px 20px 60px 20px; background: url('images/hero-bg.jpg') no-repeat center/cover; position: relative; }
+.hero h2 { font-size: 3rem; color: #00ffd5; margin-bottom: 15px; }
+.hero p { font-size: 1.2rem; opacity: 0.85; margin-bottom: 30px; }
+.search-box { display: flex; justify-content: center; gap: 10px; max-width: 400px; margin: 0 auto; }
+.search-box input { flex: 1; padding: 12px; border-radius: 30px; border: none; outline: none; font-size: 1rem; }
+.search-box button { padding: 12px 25px; border: none; border-radius: 30px; background: linear-gradient(45deg, #00ffd5, #00aaff); font-weight: bold; cursor: pointer; transition: transform 0.3s; }
+.search-box button:hover { transform: translateY(-3px) scale(1.05); }
+
+/* Services Section */
+.services { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; padding: 60px 10%; text-align: center; }
+.services .card { background: rgba(255,255,255,0.05); padding: 30px 20px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); transition: transform 0.3s, box-shadow 0.3s; }
+.services .card:hover { transform: scale(1.05); box-shadow: 0 15px 35px rgba(0,255,213,0.4); }
+.services .card h3 { color: #00ffd5; margin-bottom: 10px; }
+.services .card p { font-size: 0.95rem; opacity: 0.85; }
+
+/* Artist Section */
+.artist { padding: 80px 10%; display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; align-items: center; background: rgba(0,0,0,0.2); backdrop-filter: blur(8px); border-radius: 20px; margin: 40px 10%; }
+.artist-image img { width: 300px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+.artist-info { max-width: 500px; }
+.artist-info h2 { color: #00ffd5; font-size: 2rem; margin-bottom: 5px; }
+.artist-info .title { font-weight: 500; margin-bottom: 20px; opacity: 0.85; }
+.artist-info h3 { margin-bottom: 10px; }
+.artist-info ul { list-style: none; margin-bottom: 20px; }
+.artist-info ul li { margin-bottom: 8px; font-size: 1rem; }
+.listen-btn { padding: 12px 30px; border: none; border-radius: 30px; background: linear-gradient(45deg, #00ffd5, #00aaff); font-weight: bold; cursor: pointer; transition: transform 0.3s, box-shadow 0.3s; }
+.listen-btn:hover { transform: translateY(-3px) scale(1.05); box-shadow: 0 10px 25px rgba(0,255,213,0.4); }
+
+/* Footer */
+footer { text-align: center; padding: 20px; background: rgba(0,0,0,0.6); margin-top: 40px; font-size: 0.9rem; color: #ddd; }
+
+/* Responsive */
+@media (max-width: 900px) { .artist { flex-direction: column; margin: 40px 5%; } .artist-image img { width: 80%; } }
+@media (max-width: 500px) { header { flex-direction: column; gap: 10px; } .hero h2 { font-size: 2rem; } .hero p { font-size: 1rem; } }
+</style>
+</head>
+<body>
+
+<header>
+    <h1 class="logo">🎵 SHEMA ELISA MUSIC PRODUCTION</h1>
+    <nav class="navbar">
+        <a href="ney.html">Register</a>
+        <a href="gahungu.html">Songs</a>
+        <a href="aboutus.html">About</a>
+        <a href="contact us.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Professional Music Production Studio</h2>
+    <p>Recording | Mixing | Mastering | DJ Services</p>
+    <div class="search-box">
+        <input type="text" placeholder="Search songs...">
+        <button>Search</button>
+    </div>
+</section>
+
+<section class="services">
+    <div class="card">
+        <h3>🎤 Recording</h3>
+        <p>High quality vocal and instrumental recording.</p>
+    </div>
+    <div class="card">
+        <h3>🎧 Mixing</h3>
+        <p>Professional sound balancing and editing.</p>
+    </div>
+    <div class="card">
+        <h3>🔥 Mastering</h3>
+        <p>Make your music ready for radio and streaming.</p>
+    </div>
+</section>
+
+<section class="artist">
+    <div class="artist-image">
+        <img src="e:\website development project\Screenshot 2026-04-04 043531.png" alt="SHEMA ELISA">
+    </div>
+    <div class="artist-info">
+        <h2>SHEMA ELISA</h2>
+        <p class="title">Gospel Singer & Music Producer</p>
+        <h3>🎵 Popular Songs</h3>
+        <ul>
+            <li>🎶 Ntiwahora Urakaye</li>
+            <li>🎶 Jesus Is King</li>
+            <li>🎶 Jesus Is Love</li>
+            <li>🎶 SHIMA IMANA</li>
+        </ul>
+        <button class="listen-btn">Listen Now</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 SHEMA ELISA MUSIC PRODUCTION | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
